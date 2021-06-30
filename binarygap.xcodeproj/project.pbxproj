@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F48AB2F1D704BBF0027493E /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F48AB2E1D704BBF0027493E /* Point.swift */; };
 		7F6C490E1D673BF600E26147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6C490D1D673BF600E26147 /* AppDelegate.swift */; };
 		7F6C49101D673BF600E26147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6C490F1D673BF600E26147 /* ViewController.swift */; };
 		7F6C49131D673BF600E26147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6C49111D673BF600E26147 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F48AB2E1D704BBF0027493E /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		7F6C490A1D673BF600E26147 /* binarygap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = binarygap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6C490D1D673BF600E26147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F6C490F1D673BF600E26147 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				7F6C49141D673BF600E26147 /* Assets.xcassets */,
 				7F6C49161D673BF600E26147 /* LaunchScreen.storyboard */,
 				7F6C49191D673BF600E26147 /* Info.plist */,
+				7F48AB2E1D704BBF0027493E /* Point.swift */,
 			);
 			path = binarygap;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				7F6C49101D673BF600E26147 /* ViewController.swift in Sources */,
 				7F6C490E1D673BF600E26147 /* AppDelegate.swift in Sources */,
+				7F48AB2F1D704BBF0027493E /* Point.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				7F6C49341D673BF600E26147 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F6C49351D673BF600E26147 /* Build configuration list for PBXNativeTarget "binarygapTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				7F6C49371D673BF600E26147 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F6C49381D673BF600E26147 /* Build configuration list for PBXNativeTarget "binarygapUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				7F6C493A1D673BF600E26147 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
